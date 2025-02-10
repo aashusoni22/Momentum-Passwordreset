@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/" element={<ResetPassword />} />
       </Routes>
     </Router>
   );
